@@ -1,14 +1,8 @@
 <?php
 
 /* database connection */
-$host       = "localhost";
-$username   = "phpmyadmin";
-$password   = "phpmyadmin";
-$dbname     = "test";
-$dsn        = "mysql:host=$host;dbname=$dbname";
-$options    = array(
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-              );
+require "config.php";
+
 /* get information form database based on query */
 try {
   $connection = new PDO($dsn, $username, $password, $options);

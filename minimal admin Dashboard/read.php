@@ -1,13 +1,6 @@
 <?php
 /* create database connection  */
-$host       = "localhost";
-$username   = "phpmyadmin";
-$password   = "phpmyadmin";
-$dbname     = "test";
-$dsn        = "mysql:host=$host;dbname=$dbname";
-$options    = array(
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-              );
+require "config.php";
 
 if (isset($_POST['submit'])) { /* check for form submission */
 
