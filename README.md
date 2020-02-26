@@ -14,6 +14,9 @@
 - [Material design icons](https://google.github.io/material-design-icons/) 
 - [Templarian material design icons](https://materialdesignicons.com/)
 
+## Animations 
+- [particles.js](http://vincentgarreau.com/particles.js/)
+- [animate.css](https://github.com/daneden/animate.css/)
 
 ## templates
 - [coreUI admin template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
