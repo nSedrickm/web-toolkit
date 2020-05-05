@@ -10,9 +10,11 @@
 **Colors**
 - [commuter creative](http://www.colors.commutercreative.com/grid/)
 
-**Icons**
-- [Material design icons](https://google.github.io/material-design-icons/) 
+## icons
+- [Material design icons](https://google.github.io/material-design-icons/)
 - [Templarian material design icons](https://materialdesignicons.com/)
+- [Icons8](https://icons8.com/line-awesome)
+- [fontawesome](https://fontawesome.com)
 
 **Animation libraries**
 - [particles.js](http://vincentgarreau.com/particles.js/)
@@ -29,3 +31,9 @@
  **Templates**
 - [coreUI admin template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
 - [tabler admin template](https://tabler.io/)
+
+
+## images
+
+- [Pixabay](http://pixabay.com/)
+- [Unsplash](http://unsplash.com/)
