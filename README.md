@@ -6,6 +6,8 @@
 - [Material design for Bootstrap](https://daemonite.github.io/material/)
 - [MDBootstrap](https://github.com/mdbootstrap)
 - [BoostrapVue](https://bootstrap-vue.js.org/)
+- [Angular](https://angular.io)
+- [ReactJs](https://reactjs.org/)
 
 **Colors**
 - [commuter creative](http://www.colors.commutercreative.com/grid/)
