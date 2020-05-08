@@ -8,6 +8,7 @@
 - [BoostrapVue](https://bootstrap-vue.js.org/)
 - [Angular](https://angular.io)
 - [ReactJs](https://reactjs.org/)
+- [laravel](https://laravel.com/)
 
 **Colors**
 - [commuter creative](http://www.colors.commutercreative.com/grid/)
