@@ -12,22 +12,37 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
-<body>
-<div class= "container border  my-5 p-5">
-	<h2 class="mb-5"><strong>Admin Dash v1.0</strong></h2>
+	<body>
+    <div class="container my-5">
+        <h2 class="mb-5"><strong>Admin Dashboard V2.1</strong></h2>
 
-<ul class="nav flex-column">
-	<li class="nav-item">
-	<h4 class="nav-link"><a class="  btn btn-lg  w-25  btn-primary " href="create.php">Create</a> - Add item</h4></li>
-	<li class="nav-item">
-	<h4 class="nav-link "><a class=" btn btn-lg  w-25  btn-warning " href="read.php">Read</a> - Find item</h4></li>
-	<li class="nav-item">
-	<h4 class="nav-link "><a class=" btn btn-lg  w-25  btn-success " href="update.php">Update</a> - Edit item</h4></li>
-	<li class="nav-item">
-	<h4 class="nav-link "><a class=" btn btn-lg  w-25  btn-danger " href="delete.php">Delete</a> - Remove item</h4></li>
-</ul>
 
-</div>
+        <div class="card-deck">
+
+            <div class="card">
+                <h1 class="font-weight-bold"><a class="btn btn-lg  btn-primary h-100 w-100 p-5 "
+                        href="./create.php">Create</a></h1>
+            </div>
+
+            <div class="card">
+                <h1 class="font-weight-bold"><a class="btn btn-lg  btn-warning h-100 w-100 p-5 "
+                        href="./read.php">Find</a></h1>
+            </div>
+
+            <div class="card">
+                <h1 class="font-weight-bold"><a class="btn btn-lg  btn-success h-100 w-100 p-5 "
+                        href="./update.php">Update</a></h1>
+            </div>
+
+            <div class="card">
+                <h1 class="font-weight-bold"><a class="btn btn-lg  btn-danger h-100 w-100 p-5 "
+                        href="./delete.php">Delete</a></h1>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
+
 </html>
