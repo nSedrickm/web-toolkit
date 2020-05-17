@@ -43,4 +43,4 @@
 - [Pexels](http://pexels.com/)
 
 ## Design and inspiration
-- [dribbble}(https://dribbble.com/)
+- [dribbble](https://dribbble.com/)
