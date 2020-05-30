@@ -34,6 +34,7 @@
  **Templates**
 - [coreUI admin template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
 - [tabler admin template](https://tabler.io/)
+- [Sleek dashboard](https://github.com/tafcoder/sleek-dashboard)
 
 
 ## images
