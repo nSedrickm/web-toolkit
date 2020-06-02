@@ -1,1 +1,61 @@
-comming soon 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- layout for login form -->
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center align-items-center">
+            <span class="border border-primary h2  text-primary bg-light py-5 px-4 rounded-circle logo">User
+                Login</span>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col col-sm-6 col-md-6 col-lg-4">
+                <form class="form" name="form" action="http://localhost:8082/" method="post">
+                    <div class="form-group">
+                        <label for="email" class="text-primary h5">email</label>
+                        <input type="email" class="form-control form-control-lg email" placeholder="email@example.com"
+                            name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="text-primary h5">password</label>
+                        <div class="input-group">
+
+                            <input type="password" class="form-control form-control-lg pwd border-right-0 password"
+                                value="######" name="password">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default toggle btn-lg border border-left-0 rounded-0"
+                                    type="button"><i class="fa fa-eye"></i></button>
+                            </span>
+                        </div>
+                    </div>
+
+                    <button type='submit' class="btn btn-primary btn-lg">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- serving script from localhost at port 8000 -->
+    <script src="http://127.0.0.1:8000/js/login.js" async defer></script>
