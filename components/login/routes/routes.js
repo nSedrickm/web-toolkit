@@ -2,6 +2,7 @@ var express = require("express");
 var router = express.Router();
 var bodyParser = require("body-parser");
 var urlencodedParser = bodyParser.urlencoded({ extended: true });
+var chalk = require("chalk");
 
 /* GET home page. */
 router.get("/", function(req, res, next) {
@@ -14,16 +15,12 @@ router.post("/login", urlencodedParser, function(req, res, next) {
   var passwordError = "Wrong password";
   var emailError = "Wrong email";
 
-  //loggin contents received from form
-  console.log(req.body);
-
   //some basic validateion
-
   if (
     (password != "######" || password == "") &&
     (email != "email@example.com" || email == "")
   ) {
-    console.log(emailError + " and " + passwordError + " entered.");
+    console.log(chalk.red(emailError + " and " + passwordError + " entered."));
 
     res.render("index", {
       alert: true,
@@ -31,7 +28,7 @@ router.post("/login", urlencodedParser, function(req, res, next) {
       message: emailError + " and " + passwordError
     });
   } else if (email != "email@example.com" || email == "") {
-    console.log(emailError);
+    console.log(chalk.red(emailError));
 
     res.render("index", {
       alert: true,
@@ -39,7 +36,7 @@ router.post("/login", urlencodedParser, function(req, res, next) {
       message: emailError
     });
   } else if (password != "######" || password == "") {
-    console.log(passwordError);
+    console.log(chalk.red(passwordError));
 
     res.render("index", {
       alert: true,
@@ -47,7 +44,7 @@ router.post("/login", urlencodedParser, function(req, res, next) {
       message: passwordError
     });
   } else {
-    console.log("login Successful");
+    console.log(chalk.green("login Successful"));
 
     res.render("account", {
       alert: false,
