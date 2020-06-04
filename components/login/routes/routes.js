@@ -24,19 +24,36 @@ router.post("/login", urlencodedParser, function(req, res, next) {
     (email != "email@example.com" || email == "")
   ) {
     console.log(emailError + " and " + passwordError + " entered.");
+
+    res.render("index", {
+      alert: true,
+      title: "Login failed",
+      message: emailError + " and " + passwordError
+    });
   } else if (email != "email@example.com" || email == "") {
     console.log(emailError);
+
+    res.render("index", {
+      alert: true,
+      title: "Login failed",
+      message: emailError
+    });
   } else if (password != "######" || password == "") {
     console.log(passwordError);
+
+    res.render("index", {
+      alert: true,
+      title: "Login failed",
+      message: passwordError
+    });
   } else {
     console.log("login Successful");
-  }
 
-  res.render("index", {
-    title: "Login",
-    emailError: emailError,
-    passwordError: passwordError
-  });
+    res.render("account", {
+      alert: false,
+      title: "Logged in"
+    });
+  }
 });
 
 module.exports = router;
