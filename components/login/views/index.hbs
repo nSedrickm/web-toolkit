@@ -1,11 +1,21 @@
 <!-- layout for login form -->
-<div class="container-fluid mt-5">
+<div class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <span class="border border-primary h2  text-primary bg-light py-5 px-4 rounded-circle logo">Login</span>
     </div>
 </div>
 
 <div class="container-fluid py-5">
+
+    {{#if message}}
+    <div class="justify-content-center align-items-center my-2 border">
+        <p class=" h3 text-danger text-center">Login failed!</p>
+        <p class=" h5 text-dark text-center">email: {{emailError}}</p>
+        <p class="h5 text-dark text-center">password: {{passwordError}}</p>
+    </div>
+    {{/if}}
+
+
     <div class="row justify-content-center align-items-center">
         <div class="col col-sm-6 col-md-6 col-lg-4">
             <form class="form" name="form" action="/login" method="post">
@@ -31,4 +41,5 @@
             </form>
         </div>
     </div>
+
 </div>
