@@ -9,6 +9,13 @@ router.get("/", function(req, res, next) {
   res.render("index", { title: "Login" });
 });
 
+router.get("/account", function(req, res, next) {
+  res.render("account", {
+    alert: false,
+    title: "Logged in"
+  });
+});
+
 router.post("/login", urlencodedParser, function(req, res, next) {
   var email = req.body.email;
   var password = req.body.password;
@@ -46,10 +53,7 @@ router.post("/login", urlencodedParser, function(req, res, next) {
   } else {
     console.log(chalk.green("login Successful"));
 
-    res.render("account", {
-      alert: false,
-      title: "Logged in"
-    });
+    res.redirect("/account");
   }
 });
 
