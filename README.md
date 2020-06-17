@@ -2,7 +2,7 @@
 
 **A list of tools to facilitate web work**
 
-**Frameworks**
+## Frameworks
 
 - [Bootstrap](https://getbootstrap.com/)
 - [Material design for Bootstrap](https://daemonite.github.io/material/)
@@ -13,7 +13,7 @@
 - [laravel](https://laravel.com/)
 - [codeigniter](codeigniter.com)
 
-**Colors**
+## Colors
 
 - [commuter creative](http://www.colors.commutercreative.com/grid/)
 
@@ -24,7 +24,7 @@
 - [Icons8](https://icons8.com/line-awesome)
 - [fontawesome](https://fontawesome.com)
 
-**Animation libraries**
+## Animation libraries
 
 - [particles.js](http://vincentgarreau.com/particles.js/)
 - [animate.css](https://github.com/daneden/animate.css/)
@@ -37,7 +37,7 @@
 - [Hover.css](http://ianlunn.github.io/Hover/)
 - [AniJS](http://anijs.github.io/)
 
-  **Templates**
+## Templates
 
 - [coreUI admin template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
 - [tabler admin template](https://tabler.io/)
