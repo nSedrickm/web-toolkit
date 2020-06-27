@@ -36,6 +36,9 @@
 - [CSShake](http://elrumordelaluz.github.io/csshake/#1)
 - [Hover.css](http://ianlunn.github.io/Hover/)
 - [AniJS](http://anijs.github.io/)
+- [Movable](https://github.com/daybrush/moveable)
+- [Chart.xkcd](https://github.com/timqian/chart.xkcd)
+- [Wow.js](http://mynameismatthieu.com/WOW/)
 
 ## Templates
 
@@ -56,3 +59,7 @@
 ## API's
 
 - [Public Apis](https://github.com/public-apis/public-apis)
+
+## ORM
+
+- [Sequelize](https://sequelize.org/)
