@@ -39,6 +39,11 @@
 - [Movable](https://github.com/daybrush/moveable)
 - [Chart.xkcd](https://github.com/timqian/chart.xkcd)
 - [Wow.js](http://mynameismatthieu.com/WOW/)
+- [Monolith](https://github.com/Y2Z/monolith)
+- [PageMap](https://github.com/lrsjng/pagemap)
+- [Hover](https://github.com/IanLunn/Hover)
+- [Animate on Scroll](https://michalsnik.github.io/aos/)
+- [Bideo](https://rishabhp.github.io/bideo.js/)
 
 ## Templates
 
