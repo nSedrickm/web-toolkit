@@ -68,3 +68,7 @@
 ## ORM
 
 - [Sequelize](https://sequelize.org/)
+
+## Guides
+
+- [Code analogies](https://bit.ly/code-anlogies)
