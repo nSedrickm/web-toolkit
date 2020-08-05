@@ -72,3 +72,7 @@
 ## Guides
 
 - [Code analogies](https://bit.ly/code-anlogies)
+
+## Quick snippets
+
+- [Bootstrap menu](https://bootstrap-menu.com/index.html)
