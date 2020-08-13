@@ -76,3 +76,8 @@
 ## Quick snippets
 
 - [Bootstrap menu](https://bootstrap-menu.com/index.html)
+
+## Tables
+
+- [Tabulator](http://tabulator.info/)
+- [Data Tables](https://datatables.net/)
