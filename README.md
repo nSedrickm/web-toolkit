@@ -74,7 +74,7 @@
 - [Code analogies](https://bit.ly/code-anlogies)
 
 ## Quick snippets
-
+- [Pixel Lite](https://github.com/themesberg/pixel-bootstrap-ui-kit)
 - [Bootstrap menu](https://bootstrap-menu.com/index.html)
 
 ## Tables
