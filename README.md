@@ -23,6 +23,7 @@
 - [Templarian material design icons](https://materialdesignicons.com/)
 - [Icons8](https://icons8.com/line-awesome)
 - [fontawesome](https://fontawesome.com)
+- [iconmonstr](https://iconmonstr.com/)
 
 ## Animation libraries
 
