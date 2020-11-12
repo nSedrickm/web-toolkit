@@ -83,3 +83,6 @@
 
 - [Tabulator](http://tabulator.info/)
 - [Data Tables](https://datatables.net/)
+
+## Utils
+- [jquery plugins](https://github.com/petk/awesome-jquery)
