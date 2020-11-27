@@ -2,7 +2,7 @@
 //config script
 
 $servername = "localhost";
-$username = "test_user";
-$password = "test_user";
+$username = "test";
+$password = "test";
 $db = "php_test";
 $conn_string = "mysql:host=$servername;dbname=$db";

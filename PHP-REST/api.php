@@ -1,11 +1,18 @@
 <?php
 
 if (isset($_POST)) {
-    foreach (getallheaders() as $name => $value) {
-        echo "$name: $value <br>";
-    }
 
-    read($_POST);
+    switch ($_POST["operation"]) {
+        case "read":
+            read($_POST);
+            break;
+
+        case "create":
+            create($_POST);
+            break;
+        default:
+            echo "invalid operation";
+    }
 }
 
 function create()
@@ -26,5 +33,7 @@ function create()
 
 function read($data)
 {
-    return json_encode($data);
+    echo $data["name"];
+    echo "<br>";
+    echo $data["class"];
 }
