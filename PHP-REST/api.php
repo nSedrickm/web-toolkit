@@ -15,7 +15,7 @@ if (isset($_POST)) {
     }
 }
 
-function create()
+function create($data)
 {
     try {
         require "config.php";
@@ -34,6 +34,4 @@ function create()
 function read($data)
 {
     echo $data["name"];
-    echo "<br>";
-    echo $data["class"];
 }
