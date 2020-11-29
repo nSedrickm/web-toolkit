@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>test page</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+        }
+
+        form {
+            padding: 50px;
+        }
+
+        input {
+            margin: 15px 0;
+            display: block;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+        }
+
+        legend {
+            text-align: center;
+            font-size: 24px;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="test_form">
+        <legend>Test Form</legend>
+        <label for="operation">operation</label>
+        <input type="text" name="operation">
+        <label for="name">Name</label>
+        <input type="text" name="first_name" id="first_name">
+        <label for="class">class</label>
+        <input type="text" name="last_name"  id="last_name">
+        <button type="submti">send it</button>
+    </form>
+
+    <script>
+
+        function handler(event) {
+            event.preventDefault();
+
+            varfisrtName = document.getElementById("first_name");
+            varlastName = document.getElementById("last_name");
+
+            let data = {
+                firstname: firstName.value,
+                lastname : lastName.value
+            }
+
+            console.log(JSON.stringify(data));
+        }
+        var form = document.getElementById("test_form");
+        form.addEventListener("submit", handler)
+
+
+    </script>
+</body>
+
+</html>
