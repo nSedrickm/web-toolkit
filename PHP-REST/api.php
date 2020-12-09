@@ -40,5 +40,18 @@ function create($data)
 
 function read($data)
 {
-    echo $data["name"];
+    try {
+        require "config.php";
+        $conn = new PDO($conn_string, $username, $password);
+        // set the PDO error mode to exception
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        //echo "Connected successfully \n";
+        $sql = "SELECT * FROM users";
+        $data = $conn->query($sql)->fetchAll();
+        echo json_encode($data);
+    } catch (PDOException $e) {
+        echo "An error occured: " . $e->getMessage() . "\n";
+    }
+
+    $conn = null;
 }
