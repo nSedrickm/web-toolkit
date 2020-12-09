@@ -34,11 +34,9 @@
     <form id="test_form">
         <legend>Test Form</legend>
         <label for="operation">operation</label>
-        <input type="text" name="operation">
+        <input type="text" name="op" id="op">
         <label for="name">Name</label>
-        <input type="text" name="first_name" id="first_name">
-        <label for="class">class</label>
-        <input type="text" name="last_name"  id="last_name">
+        <input type="text" name="name" id="name">
         <button type="submti">send it</button>
     </form>
 
@@ -47,18 +45,22 @@
         function handler(event) {
             event.preventDefault();
 
-            varfisrtName = document.getElementById("first_name");
-            varlastName = document.getElementById("last_name");
+            var op = document.getElementById("op");
+            var name = document.getElementById("name");
 
             let data = {
-                firstname: firstName.value,
-                lastname : lastName.value
+                op: op.value,
+                name: name.value,
             }
 
             console.log(JSON.stringify(data));
         }
+
+
         var form = document.getElementById("test_form");
         form.addEventListener("submit", handler)
+
+        //TODO ; add handler for post and get reqs
 
 
     </script>
