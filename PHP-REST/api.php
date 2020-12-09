@@ -24,9 +24,14 @@ function create($data)
         $conn = new PDO($conn_string, $username, $password);
         // set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        echo "Connected successfully \n";
+        //echo "Connected successfully \n";
+        $sql = "INSERT INTO users (name) VALUES (?)";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute([$data["name"]]);
+
+        echo "success, inserted";
     } catch (PDOException $e) {
-        echo "Connection failed: " . $e->getMessage() . "\n";
+        echo "An error occured: " . $e->getMessage() . "\n";
     }
 
     $conn = null;
