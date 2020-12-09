@@ -2,13 +2,15 @@
 
 if (isset($_POST)) {
 
-    switch ($_POST["operation"]) {
+    $data = json_decode(file_get_contents('php://input'), true);
+
+    switch ($data["op"]) {
         case "read":
-            read($_POST);
+            read($data);
             break;
 
         case "create":
-            create($_POST);
+            create($data);
             break;
         default:
             echo "invalid operation";
