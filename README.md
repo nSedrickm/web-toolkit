@@ -24,6 +24,7 @@
 - [Icons8](https://icons8.com/line-awesome)
 - [fontawesome](https://fontawesome.com)
 - [iconmonstr](https://iconmonstr.com/)
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ## Animation libraries
 
